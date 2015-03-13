@@ -1,3 +1,5 @@
+# Need to place the txt file in the same folder of the code
+
 babies = read.table("babies.txt", header=TRUE)
 bwt.nonsmoke = babies$bwt[babies$smoke==0]
 bwt.smoke = babies$bwt[babies$smoke==1]
